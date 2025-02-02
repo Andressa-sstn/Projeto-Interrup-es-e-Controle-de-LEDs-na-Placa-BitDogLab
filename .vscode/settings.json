@@ -1,0 +1,12 @@
+{
+    "cmake.configureOnOpen": true,
+    "cmake.generator": "Ninja",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.cmakePath": "/usr/bin/cmake",  // Caminho para o CMake no seu sistema
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc",  // Caminho para o compilador
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**",
+        "/opt/pico/pico-sdk/src/**"  // Ajuste o caminho para o SDK do RP2040 no seu sistema
+    ]
+}
