@@ -5,9 +5,9 @@
 ## 📌 **Passo a Passo para Desenvolvimento e Entrega do Projeto**
 
 ### **1️⃣ Configuração do Ambiente**
-- **MicroPython ou C/C++ SDK** para programação do RP2040.
-- **Thonny IDE (para MicroPython)** ou **VS Code com extensão do Pico-SDK** (para C++).
-- **Biblioteca neopixel (MicroPython)** ou **Adafruit Neopixel (C++)**.
+- **Micro C/C++ SDK** para programação do RP2040.
+- **Thonny IDE  **VS Code com extensão do Pico-SDK** (para C++).
+- **Biblioteca neopixel **Adafruit Neopixel (C++)**.
 
 ---
 
@@ -35,16 +35,15 @@ Crie um diretório no GitHub com a seguinte estrutura:
 
 ```
 📂 BitDogLab_Project
- ├── 📜 README.md
- ├── 📂 src
- │   ├── main.py  (ou main.cpp)
- │   ├── neopixel.py (se usar MicroPython)
- │   ├── debounce.py (função de debouncing)
- ├── 📂 docs
- │   ├── esquema_conexao.png
- │   ├── explicacao_interrupcoes.md
- ├── 📂 video
- │   ├── demonstracao.mp4
+ bitdoglab-interruptions/
+│── src/
+│   ├── main.c
+│   ├── ws2812.pio.h
+│   ├── ws2812.c
+│── CMakeLists.txt
+│── README.md
+│── video.mp4
+
 ```
 
 - **README.md** → Explicação do projeto e como rodá-lo.  
