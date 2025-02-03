@@ -1,0 +1,3 @@
+void set_pixel(int index, uint32_t color) {
+    printf("LED %d: Cor %06X\n", index, color);
+}
