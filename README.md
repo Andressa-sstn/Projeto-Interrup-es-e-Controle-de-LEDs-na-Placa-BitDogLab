@@ -80,5 +80,7 @@ Crie um diretório no GitHub com a seguinte estrutura:
 ✅ README explicativo  
 ✅ Vídeo demonstrativo  
 
--** Criadora do código 
-Andressa Silva Santos 
+
+ 
+ Criadora do código 
+Andressa Silva Santos [ https://github.com/Andressa-sstn ]
